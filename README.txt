@@ -3,11 +3,7 @@ AUTHOR: BENJAMIN FRIDKIS
 
 STEPS TO EXECUTE CHATSERVE AND CHATCLIENT - A SIMPLE CHAT PROGRAM TO DEMONSTRATE SOCKET PROGRAMMING
 
-1.  Copy the zip file "Project1_CS372_BFRIDKIS.zip" to a directory of your choice on any of the 
-	  following machines:
-		- flip1.engr.oregonstate.edu
-		- flip2.engr.oregonstate.edu
-		- flip3.engr.oregonstate.edu
+1.  Copy the zip file "Project1_CS372_BFRIDKIS.zip" to a directory of your choice.
 		
 	Unzip the contents.
 
@@ -150,7 +146,3 @@ STEPS TO EXECUTE CHATSERVE AND CHATCLIENT - A SIMPLE CHAT PROGRAM TO DEMONSTRATE
 		
 9.  To delete all object and executable files generated for the creation of chatclient
 	  and/or chatclientEC, type: "make clean" (without quotes)
-	  
-**** Programs tested using various combinations of flip servers. 
-**** Primarily used flip2.engr.oregonstate.edu for chatclient,
-**** connected to chatserve.py running on flip3.engr.oregonstate.edu.
