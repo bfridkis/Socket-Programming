@@ -86,7 +86,7 @@ int main(int argc, char *argv[])
 		//--point to a linked list of struct addrinfos which each containing a struct
 		//--sockaddr to be used to establish connection following the call to addrinfo. 
 		//--The first of these sockaddr to provide viable connection parameters
-		//--will be used for theconnection. 
+		//--will be used for the connection. 
 		//--The server name and server port are also designated as the first 
 		//--two parameters to the function. If an error occurs, it is handled 
 		//--in the following for block, and if no viable connections are provided
