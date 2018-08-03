@@ -72,7 +72,8 @@ while True:
 
 	
 	
-##REFERENCES##	
+##REFERENCES##
+#"Computer Networking: A Top Down Approach". Kurose, James and Kieth Ross. 7th Edition. Pearson. 2017.  
 #https://stackoverflow.com/questions/4187185/how-can-i-check-if-my-python-object-is-a-number
 #https://stackoverflow.com/questions/3474382/how-do-i-run-two-python-loops-concurrently
 #https://docs.python.org/3/library/threading.html
