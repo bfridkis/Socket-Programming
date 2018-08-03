@@ -83,7 +83,7 @@ int main(int argc, char *argv[])
 		//The following if block uses getaddrinfo as follows: 
 		//--hints is passed in prepopulated with info as designated above, and servInfo
 		//--is populated by the function in response. Specifically, servInfo will
-		//--point to a linked list of struct addrinfos which each containing a struct
+		//--point to a linked list of struct addrinfos with each containing a struct
 		//--sockaddr to be used to establish connection following the call to addrinfo. 
 		//--The first of these sockaddr to provide viable connection parameters
 		//--will be used for the connection. 
