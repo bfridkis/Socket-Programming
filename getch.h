@@ -18,4 +18,4 @@ char getch_(int echo);
 char getch(); 
 char getche();
 
-#endif /* get_in_addr_h */
+#endif /* getch_h */
