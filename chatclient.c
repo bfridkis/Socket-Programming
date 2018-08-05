@@ -95,7 +95,7 @@ int main(int argc, char *argv[])
 		//--See reference: https://beej.us/guide/bgnet/html/multi/syscalls.html
 		if((rv = getaddrinfo(serverName, serverPort, &hints, &servInfo) != 0))
 		{
-			printf(stderr, "getaddrinfo: %s\n", gai_strerror(rv));
+			fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(rv));
 			return 1;
 		}
 		
@@ -121,7 +121,7 @@ int main(int argc, char *argv[])
 		
 		if (p == NULL) 
 		{
-		   printf(stderr, "client: failed to connect\n");
+		   fprintf(stderr, "client: failed to connect\n");
 		   return 2;
 		}
 		
