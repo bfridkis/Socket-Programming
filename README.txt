@@ -15,10 +15,12 @@ STEPS TO EXECUTE CHATSERVE AND CHATCLIENT - A SIMPLE CHAT PROGRAM TO DEMONSTRATE
 	  on the command line with program launch.
 		~EX. To launch using port 35000, type: "python3 chatserve.py 35000" (without quotes)
 	
-	You can optionally declare the server handle as a fourth command line argument.
+	You can optionally declare the server handle as a third command line argument.
 		~EX. To launch using port 35000 and server handle bfrid, 
 			 type: "python3 chatserve.py 35000 bfrid" (without quotes)
 				- Server handle must be 10 characters or less
+		*Note "python3" in the above is not considered a command-line argument,
+			so the command-line arguments begin with chatserve.py = 0.
 		
 	If you do not declare a server handle at the command line with program launch, you will be
 	  prompted to do so at program start up. (It is also optional to declare the port number
